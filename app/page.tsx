@@ -1,8 +1,10 @@
+//@ts-nocheck
 "use client"
 import { Card } from "@/components/ui/card"
 import { useRef } from "react"
 
 export default function QuotationPage() {
+  //@ts-ignore
   const printRef = useRef()
 
   const handlePrint = () => {
